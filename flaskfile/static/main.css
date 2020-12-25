@@ -1,0 +1,147 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  .bg-steel {
+    background-color: rgb(18, 18, 18);
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  /* Maysam */
+  #libs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #libs a {
+    background-color: #45969b;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px;
+    -webkit-filter: brightness(100%);
+            filter: brightness(100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border-radius: 0.3rem;
+  }
+
+  #libs .active {
+    background-color: #f96d15 !important;
+  }
+
+  #libs a:hover {
+    -webkit-filter: brightness(90%);
+            filter: brightness(90%);
+  }
+
+  #questions {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #questions a {
+    background-color: #f96d15;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 16px;
+    -webkit-filter: brightness(100%);
+            filter: brightness(100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    margin-bottom: 0.3em;
+  }
+
+  #questions .active {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    -webkit-filter: brightness(130%);
+            filter: brightness(130%);
+  }
+
+  #question {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    -webkit-box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+  }
